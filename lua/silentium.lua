@@ -32,6 +32,7 @@ local function hl(name, val)
 end
 
 function M.colorscheme()
+	vim.o.background = "dark"
 	vim.g.colors_name = "silentium"
 	vim.cmd.highlight("clear")
 	if vim.fn.has("syntax_on") then

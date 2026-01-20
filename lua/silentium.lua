@@ -55,7 +55,6 @@ function M.colorscheme()
 	hl("CursorLine", { bg = M.colors.dark_gray })
 	hl("CursorColumn", { bg = M.colors.dark_gray })
 	hl("LineNr", { fg = M.colors.light_gray })
-	hl("LineNrAbove", { fg = M.colors.light_gray })
 	hl("LineNrBelow", { fg = M.colors.gray })
 	hl("StatusLine", { bg = M.colors.accent, fg = M.colors.dark })
 	hl("StatusLineNC", { bg = M.colors.accent, fg = M.colors.dark })
@@ -85,15 +84,10 @@ function M.colorscheme()
 	-- Tree-sitter
 	hl("@constant.html", { fg = M.colors.light_gray })
 	hl("@string.escape", { fg = M.colors.white })
-	hl("@string.regexp", { fg = M.colors.light_gray })
 	hl("@tag", { fg = M.colors.accent })
 	hl("@tag.attribute", { fg = M.colors.white })
-	hl("@tag.builtin", { fg = M.colors.accent })
 	hl("@tag.delimiter", { fg = M.colors.white })
 	-- Plugins
-	-- IBL
-	hl("IblIndent", { fg = M.colors.gray })
-	hl("IblScope", { fg = M.colors.light_gray })
 	-- NeoTree
 	hl("NeoTreeDirectoryIcon", { fg = M.colors.white })
 	hl("NeoTreeDirectoryName", { fg = M.colors.white })
